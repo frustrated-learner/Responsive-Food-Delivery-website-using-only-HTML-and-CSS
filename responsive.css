@@ -1,0 +1,47 @@
+@media only screen and (max-width: 789px) {
+    #client::before {
+        height: 300px;
+    }
+    #contact_us {
+        position: relative;
+        top: 20px;
+    }
+}
+
+@media only screen and (max-width: 469px) {
+    #client::before {
+        height: 490px;
+    }
+    #contact_us {
+        position: relative;
+        top: 115px;
+    }
+}
+
+@media only screen and (max-width: 615px) {
+    .box {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 534px) {
+    #home::before {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 489px) {
+    #navbar {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 396px) {
+    #home {
+        height: 490px;
+    }
+}
