@@ -8,8 +8,10 @@
 
 #navbar {
     display: flex;
-    position: relative;
+    position: fixed;
     align-items: center;
+    top: 0;
+    width: 100%;
 }
 
 #navbar::before {
